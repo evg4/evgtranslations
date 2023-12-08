@@ -1,0 +1,35 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials {
+  height: 1rem;
+  padding-right: 0.5rem;
+}
+
+.ul {
+  list-style: none;
+  margin: 0rem;
+  padding: 0;
+}
+
+.li {
+  margin: 0;
+  padding: 0;
+}
+
+.badge {
+  height: 4rem;
+  padding: 0 0.5rem;
+}
+
+.footerDiv {
+  margin: 1rem;
+}
+
+.badgeDiv {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+}
