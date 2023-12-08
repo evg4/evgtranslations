@@ -1,0 +1,20 @@
+.testimonials {
+  display: flex;
+  justify-content: space-around;
+}
+
+.testimonial {
+  border: 1px solid black;
+  height: 17rem;
+  width: 17rem;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote {
+  font-weight: bold;
+}

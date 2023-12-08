@@ -1,0 +1,19 @@
+.whySection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo {
+  height: 30rem;
+  margin: 1rem;
+}
+
+.whyText {
+  width: 30rem;
+}
+
+.ul {
+  list-style: none;
+  padding: 0;
+}
