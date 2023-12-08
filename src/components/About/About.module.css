@@ -7,6 +7,14 @@
 .aboutText {
   width: 60%;
   margin: 1rem;
+}
+
+.aboutText h2 {
+  font-size: 3rem;
+  color: rgb(192, 0, 0);
+}
+
+.aboutText p {
   font-size: 1.2rem;
 }
 

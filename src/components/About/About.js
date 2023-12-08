@@ -60,8 +60,8 @@ function About() {
             CPD per year, and am aiming to do the same next time round!{" "}
             <br></br>
             <br></br>When I’m not working you can usually find me keeping active
-            with some salsa dancing, volunteering for Girlguiding, or planning
-            my next holiday.<br></br>
+            with some salsa dancing, volunteering for Girlguiding, or coding (I
+            built this website myself!).<br></br>
             <br></br>If you would like to know more about working with me, want
             to see a copy of my privacy policy, or just want to chat, you can{" "}
             <Link to="/contact">contact me</Link>.

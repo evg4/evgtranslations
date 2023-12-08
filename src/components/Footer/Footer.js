@@ -10,7 +10,9 @@ function Footer() {
   return (
     <footer>
       <div className={styles.footerDiv}>
-        <h3>EVG Translations</h3>
+        <h3>
+          <Link to="/">EVG Translations</Link>
+        </h3>
         <p>Translations by Elizabeth Gardiner</p>
         <a
           target="_blank"
@@ -21,13 +23,20 @@ function Footer() {
         <a target="_blank" href="https://twitter.com/EVGTranslations">
           <img className={styles.socials} src={twitter}></img>
         </a>
+        <p className={styles.coded}>Website coded by Elizabeth Gardiner</p>
       </div>
       <div className={styles.footerDiv}>
         <h3>Useful links</h3>
         <ul className={styles.ul}>
-          <li className={styles.li}>About</li>
-          <li className={styles.li}>Services and Specialisms</li>
-          <li className={styles.li}>How I Work</li>
+          <li className={styles.li}>
+            <Link to="/about">About</Link>
+          </li>
+          <li className={styles.li}>
+            <Link to="/services-and-specialisms">Services and Specialisms</Link>
+          </li>
+          <li className={styles.li}>
+            <Link to="/how-i-work">How I Work</Link>
+          </li>
         </ul>
       </div>
       <div className={styles.footerDiv}>

@@ -11,3 +11,8 @@ h1 {
   font-size: 5rem;
   color: rgb(192, 0, 0);
 }
+
+header a {
+  color: rgb(192, 0, 0);
+  text-decoration: none;
+}
