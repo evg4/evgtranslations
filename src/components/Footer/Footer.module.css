@@ -1,6 +1,17 @@
 footer {
   display: flex;
   justify-content: space-between;
+  background-color: rgb(224, 224, 224);
+  height: 12rem;
+}
+
+footer h3 {
+  font-size: 1.4rem;
+}
+
+footer p,
+footer li {
+  font-size: 1.2rem;
 }
 
 .socials {

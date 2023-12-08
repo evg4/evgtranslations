@@ -12,8 +12,15 @@ function Footer() {
       <div className={styles.footerDiv}>
         <h3>EVG Translations</h3>
         <p>Translations by Elizabeth Gardiner</p>
-        <img className={styles.socials} src={linkedin}></img>
-        <img className={styles.socials} src={twitter}></img>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/elizabeth-v-gardiner/"
+        >
+          <img className={styles.socials} src={linkedin}></img>
+        </a>
+        <a target="_blank" href="https://twitter.com/EVGTranslations">
+          <img className={styles.socials} src={twitter}></img>
+        </a>
       </div>
       <div className={styles.footerDiv}>
         <h3>Useful links</h3>
@@ -30,8 +37,18 @@ function Footer() {
         </ul>
       </div>
       <div className={styles.badgeDiv}>
-        <img className={styles.badge} src={CIOL}></img>
-        <img className={styles.badge} src={ITI}></img>
+        <a
+          target="_blank"
+          href="https://www.ciol.org.uk/member-check/profile/65213/21294"
+        >
+          <img className={styles.badge} src={CIOL}></img>
+        </a>
+        <a
+          target="_blank"
+          href="https://www.iti.org.uk/find-professional-translator-interpreter/member-check/individual-member-check.html?q=Elizabeth+Gardiner"
+        >
+          <img className={styles.badge} src={ITI}></img>
+        </a>
         <img className={styles.badge} src={Trados2}></img>
       </div>
     </footer>

@@ -4,5 +4,7 @@
 }
 
 .li {
-  padding: 0.5rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: rgb(192, 0, 0);
 }

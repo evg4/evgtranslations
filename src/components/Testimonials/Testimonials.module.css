@@ -1,20 +1,28 @@
 .testimonials {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 3rem 1rem;
 }
 
 .testimonial {
-  border: 1px solid black;
-  height: 17rem;
-  width: 17rem;
-  margin: 1rem;
+  border: 2px solid rgb(192, 0, 0);
+  height: 19rem;
+  width: 19rem;
+  margin: 0.5rem;
   padding: 1rem;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: rgb(224, 224, 224);
+}
+
+.testimonial:hover {
+  transform: scale(1.1);
 }
 
 .quote {
   font-weight: bold;
+  font-size: 1.2rem;
 }

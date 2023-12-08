@@ -11,12 +11,12 @@ function WhyMe() {
         <h3>Why work with me?</h3>
         <ul className={styles.ul}>
           <li>
-            <strong>Qualified.</strong> I hold a first-class degree in German
+            <strong>✓ Qualified.</strong> I hold a first-class degree in German
             and Spanish Linguistic Studies from the University of Southampton,
             and am a member of the CIOL and ITI.
           </li>
           <li>
-            <strong>Experienced.</strong> With over 3 years of experience
+            <strong>✓ Experienced.</strong> With over 3 years of experience
             working at a UK-based translation agency, I have in-depth knowledge
             of the industry and know the pressures faced by project managers and
             the importance of prompt delivery. I’ve also lived in both Germany
@@ -24,7 +24,7 @@ function WhyMe() {
             relating to the languages I translate.
           </li>
           <li>
-            <strong>Meticulous.</strong> All work is thoroughly researched and
+            <strong>✓ Meticulous.</strong> All work is thoroughly researched and
             proofread; I always deliver high quality, well-formatted
             translations on or before the agreed deadline.{" "}
           </li>
