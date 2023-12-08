@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-h2 {
+.banner h2 {
   font-size: 3rem;
   color: white;
   padding: 1.5rem 0;

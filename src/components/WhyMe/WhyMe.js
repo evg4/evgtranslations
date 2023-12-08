@@ -1,5 +1,6 @@
 import styles from "../WhyMe/WhyMe.module.css";
 import photo1 from "../../assets/whyme.jpg";
+import { Link } from "react-router-dom";
 
 function WhyMe() {
   return (
@@ -29,8 +30,9 @@ function WhyMe() {
             translations on or before the agreed deadline.{" "}
           </li>
         </ul>
-        <p>Get in touch!</p>{" "}
-        {/*replace with Link or NavLink when routing done */}
+        <Link className={styles.cta} to="/contact">
+          Get in touch!
+        </Link>{" "}
       </div>
     </section>
   );

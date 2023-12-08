@@ -3,8 +3,8 @@ import linkedin from "../../assets/linkedin.svg";
 import twitter from "../../assets/twitter.svg";
 import CIOL from "../../assets/member-logo-mcil.png";
 import ITI from "../../assets/ITI Affiliate-logo.png";
-import Trados from "../../assets/trados-badges-web-sdl-150x100-body.jpg";
 import Trados2 from "../../assets/trados-badges-web-sdl-250x170-body.jpg";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -33,22 +33,26 @@ function Footer() {
       <div className={styles.footerDiv}>
         <h3>Get in touch</h3>
         <ul className={styles.ul}>
-          <li className={styles.li}>Contact</li>
+          <li className={styles.li}>
+            <Link to="/contact">Contact</Link>
+          </li>
         </ul>
       </div>
       <div className={styles.badgeDiv}>
-        <a
+        <Link
+          rel="noopener noreferrer"
           target="_blank"
-          href="https://www.ciol.org.uk/member-check/profile/65213/21294"
+          to="https://www.ciol.org.uk/member-check/profile/65213/21294"
         >
           <img className={styles.badge} src={CIOL}></img>
-        </a>
-        <a
+        </Link>
+        <Link
+          rel="noopener noreferrer"
           target="_blank"
           href="https://www.iti.org.uk/find-professional-translator-interpreter/member-check/individual-member-check.html?q=Elizabeth+Gardiner"
         >
           <img className={styles.badge} src={ITI}></img>
-        </a>
+        </Link>
         <img className={styles.badge} src={Trados2}></img>
       </div>
     </footer>

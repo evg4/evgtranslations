@@ -1,0 +1,28 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactText {
+  font-size: 1.2rem;
+  width: 25rem;
+  margin: 2rem;
+}
+
+.contactText h2 {
+  font-size: 3rem;
+  color: rgb(192, 0, 0);
+  padding: 1.5rem 0;
+}
+
+.socials {
+  height: 1.5rem;
+  padding-right: 1.5rem;
+  margin: 1rem 0;
+}
+
+.contactImg img {
+  height: 25rem;
+  margin: 2rem;
+}

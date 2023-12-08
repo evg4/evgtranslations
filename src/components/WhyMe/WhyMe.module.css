@@ -33,3 +33,15 @@
   list-style: none;
   padding: 0;
 }
+
+.cta {
+  font-size: 1.2rem;
+}
+
+.cta:hover {
+  font-weight: bold;
+}
+
+.cta:visited {
+  color: rgb(192, 0, 0);
+}

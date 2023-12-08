@@ -1,14 +1,50 @@
 import styles from "../Nav/Nav.module.css";
+import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
     <nav>
       <ul className={styles.ul}>
-        <li className={styles.li}>Home</li>
-        <li className={styles.li}>About</li>
-        <li className={styles.li}>Services and specialisms</li>
-        <li className={styles.li}>How I work</li>
-        <li className={styles.li}>Contact</li>
+        <li className={styles.li}>
+          <NavLink
+            className={({ isActive }) => isActive && styles.activeNavLink}
+            to="/"
+          >
+            Home
+          </NavLink>
+        </li>
+        <li className={styles.li}>
+          <NavLink
+            className={({ isActive }) => isActive && styles.activeNavLink}
+            to="/about"
+          >
+            About
+          </NavLink>
+        </li>
+        <li className={styles.li}>
+          <NavLink
+            className={({ isActive }) => isActive && styles.activeNavLink}
+            to="/services-and-specialisms"
+          >
+            Services and specialisms
+          </NavLink>
+        </li>
+        <li className={styles.li}>
+          <NavLink
+            className={({ isActive }) => isActive && styles.activeNavLink}
+            to="/how-I-work"
+          >
+            How I work
+          </NavLink>
+        </li>
+        <li className={styles.li}>
+          <NavLink
+            className={({ isActive }) => isActive && styles.activeNavLink}
+            to="/contact"
+          >
+            Contact
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );

@@ -1,0 +1,19 @@
+.aboutSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutText {
+  width: 60%;
+  margin: 1rem;
+  font-size: 1.2rem;
+}
+
+.aboutImg {
+  margin: 1rem;
+}
+
+.aboutImg img {
+  height: 45rem;
+}
