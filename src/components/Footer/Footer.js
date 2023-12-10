@@ -14,15 +14,7 @@ function Footer() {
           <Link to="/">EVG Translations</Link>
         </h3>
         <p>Translations by Elizabeth Gardiner</p>
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/in/elizabeth-v-gardiner/"
-        >
-          <img className={styles.socials} src={linkedin}></img>
-        </a>
-        <a target="_blank" href="https://twitter.com/EVGTranslations">
-          <img className={styles.socials} src={twitter}></img>
-        </a>
+        <br></br>
         <p className={styles.coded}>Website coded by Elizabeth Gardiner</p>
       </div>
       <div className={styles.footerDiv}>
@@ -46,6 +38,16 @@ function Footer() {
             <Link to="/contact">Contact</Link>
           </li>
         </ul>
+        <br></br>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/elizabeth-v-gardiner/"
+        >
+          <img className={styles.socials} src={linkedin}></img>
+        </a>
+        <a target="_blank" href="https://twitter.com/EVGTranslations">
+          <img className={styles.socials} src={twitter}></img>
+        </a>
       </div>
       <div className={styles.badgeDiv}>
         <Link
