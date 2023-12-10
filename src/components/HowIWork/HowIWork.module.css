@@ -1,0 +1,22 @@
+.stepsSection {
+  margin: 2rem auto;
+  width: 50%;
+}
+
+.stepsSection h2 {
+  font-size: 3rem;
+  color: rgb(192, 0, 0);
+}
+
+.stepsSection p {
+  font-size: 1.2rem;
+}
+
+.step summary {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.step summary {
+  font-size: 1.4rem;
+}
