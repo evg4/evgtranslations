@@ -17,6 +17,44 @@
   font-weight: bold;
 }
 
-.step summary {
-  font-size: 1.4rem;
+@media only screen and (max-width: 1250px) {
+  .stepsSection h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .stepsSection h2 {
+    font-size: 2rem;
+  }
+
+  .stepsSection p {
+    font-size: 1.1rem;
+  }
+
+  .step summary {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .stepsSection h2,
+  .stepsSection p,
+  .step summary {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .stepsSection h2 {
+    font-size: 1.8rem;
+  }
+
+  .stepsSection p {
+    font-size: 1rem;
+  }
+
+  .stepsSection {
+    width: 75%;
+  }
 }
