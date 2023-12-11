@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   background-color: rgb(224, 224, 224);
+  padding-bottom: 1rem;
 }
 
 .photo {
@@ -12,6 +13,7 @@
 
 .whyText {
   width: 30rem;
+  padding: 1rem;
 }
 
 .whyText h3 {
@@ -23,8 +25,7 @@
   color: rgb(192, 0, 0);
 }
 
-.whyText li,
-.whyText p {
+.whyText li {
   font-size: 1.2rem;
   padding: 1rem 0;
 }
@@ -45,4 +46,55 @@
 
 .cta:visited {
   color: rgb(192, 0, 0);
+}
+
+@media only screen and (max-width: 1080px) {
+  .whyText h3 {
+    font-size: 2rem;
+  }
+
+  .whyText li {
+    font-size: 1.1rem;
+  }
+
+  .photo {
+    height: 32rem;
+  }
+}
+
+@media only screen and (max-width: 845px) {
+  .whyText h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+  }
+
+  .whyText li {
+    font-size: 1rem;
+  }
+  .photo {
+    height: 25rem;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .whySection {
+    flex-direction: column;
+  }
+
+  .whyText h3 {
+    text-align: center;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .whyText {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  .photo {
+    height: 15rem;
+  }
 }

@@ -1,6 +1,6 @@
 .banner {
   background-image: url("../../assets/StoodleyPike-banner.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 38rem;
   text-align: center;
@@ -22,7 +22,7 @@
 
 .bannerText {
   color: white;
-  width: 75%;
+  width: 60%;
 }
 
 .bannerText h3 {
@@ -31,4 +31,59 @@
 
 .bannerText p {
   font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 1250px) {
+  .banner h2 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 9000px) {
+  .banner h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+  }
+
+  .bannerText h3 {
+    font-size: 1.2rem;
+  }
+
+  .bannerText p {
+    font-size: 1.1rem;
+  }
+
+  .bannerText {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .banner h2 {
+    font-size: 1.5rem;
+  }
+
+  .bannerText h3 {
+    font-size: 1.1rem;
+  }
+
+  .bannerText p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .banner {
+    background-image: none;
+    height: max-content;
+  }
+
+  .overlay {
+    background-color: white;
+  }
+
+  .bannerText,
+  .banner h2 {
+    color: black;
+  }
 }
