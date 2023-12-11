@@ -8,6 +8,7 @@ function About() {
       <div className={styles.aboutSection}>
         <div className={styles.aboutText}>
           <h2>About me</h2>
+
           <p>
             Hi! I’m Elizabeth, the face behind EVG Translations. I’m a qualified
             linguist offering translation and proofreading services from German,
@@ -43,9 +44,8 @@ function About() {
             relating to <strong>eco-tourism</strong> or{" "}
             <strong>sustainability</strong>. I love to unleash my creative side
             on <strong>marketing & advertising</strong> projects, and continue
-            to take on
-            <strong>clinical trial documentation</strong> thanks to my
-            background in the medical & pharmaceutical field. Among my end
+            to take on <strong>clinical trial documentation</strong> thanks to
+            my background in the medical & pharmaceutical field. Among my end
             clients are government agencies, an Italian fashion brand, a German
             automotive company, a social media platform, and high-end hotel
             chains. You can{" "}
