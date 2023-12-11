@@ -59,3 +59,79 @@ footer li {
   display: flex;
   align-items: center;
 }
+
+@media only screen and (max-width: 1250px) {
+  footer a {
+    font-size: 1.2rem;
+  }
+
+  footer p,
+  footer li {
+    font-size: 1.1rem;
+  }
+
+  .coded {
+    font-size: 1rem;
+  }
+
+  .li a {
+    font-size: 1.1rem;
+  }
+
+  .badge {
+    height: 3rem;
+    padding: 0 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  footer a {
+    font-size: 1.1rem;
+  }
+
+  footer p,
+  footer li {
+    font-size: 1rem;
+  }
+
+  .coded {
+    font-size: 1rem;
+  }
+
+  footer h3 {
+    font-size: 1.1rem;
+  }
+  .li a {
+    font-size: 1rem;
+  }
+
+  .badge {
+    height: 2.5rem;
+    padding: 0 0.5rem;
+  }
+
+  .badgeDiv {
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 565px) {
+  footer {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .badgeDiv {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .badgeDiv {
+    flex-wrap: wrap;
+  }
+}

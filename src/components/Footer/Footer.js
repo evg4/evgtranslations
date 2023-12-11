@@ -14,7 +14,7 @@ function Footer() {
           <Link to="/">EVG Translations</Link>
         </h3>
         <p>Translations by Elizabeth Gardiner</p>
-        <br></br>
+
         <p className={styles.coded}>Website coded by Elizabeth Gardiner</p>
       </div>
       <div className={styles.footerDiv}>
@@ -50,6 +50,8 @@ function Footer() {
         </a>
       </div>
       <div className={styles.badgeDiv}>
+        <img className={styles.badge} src={Trados2}></img>
+
         <Link
           rel="noopener noreferrer"
           target="_blank"
@@ -64,7 +66,6 @@ function Footer() {
         >
           <img className={styles.badge} src={ITI}></img>
         </Link>
-        <img className={styles.badge} src={Trados2}></img>
       </div>
     </footer>
   );
