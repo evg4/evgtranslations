@@ -44,9 +44,32 @@
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 565px) {
   .contactText h2 {
     font-size: 2.3rem;
     margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .contact {
+    flex-direction: column;
+  }
+
+  .contactText h2 {
+    font-size: 1.8rem;
+  }
+
+  .contactText {
+    width: 80%;
+    text-align: center;
+  }
+
+  .contactText p {
+    font-size: 1rem;
+  }
+
+  .contactText strong {
+    text-align: center;
   }
 }

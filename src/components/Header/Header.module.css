@@ -49,8 +49,10 @@ header a {
   }
 }
 
-@media only screen and (max-width: 600px) {
-  header a {
+@media only screen and (max-width: 325px) {
+  header h1 {
     color: orange;
+    text-align: center;
+    font-size: 2rem;
   }
 }
