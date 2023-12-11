@@ -14,7 +14,7 @@ function HowIWork() {
       </p>
       {steps.map((step) => {
         return (
-          <details className={styles.step}>
+          <details key={step.title} className={styles.step}>
             <summary>{step.title}</summary>
             <p>{step.text}</p>
           </details>
