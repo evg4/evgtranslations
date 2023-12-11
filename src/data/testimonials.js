@@ -8,7 +8,7 @@ export const testimonials = [
   {
     client: "Krisztina Linka, Senior Project Consultant, Easytrans24",
     quote:
-      "Elizabeth arbeitet schon seit über 1 Jahr mit uns von EasyTrans24.com und ist eine äußerst zuverlässige Übersetzerin, die stets professionell und schnell arbeitet. Sie reagiert schnell, arbeitet effizient und auch die Kunden sind überaus zufrieden mit ihrer Leistung! Wir arbeiten sehr gern mit ihr zusammen und planen dies auch in Zukunft zutun.",
+      "Elizabeth arbeitet schon seit über 1 Jahr mit uns von EasyTrans24.com und ist eine äußerst zuverlässige Übersetzerin, die stets professionell und schnell arbeitet. Sie reagiert schnell, arbeitet effizient und auch die Kunden sind überaus zufrieden mit ihrer Leistung! Wir arbeiten sehr gern mit ihr zusammen und planen dies auch in Zukunft zu tun.",
   },
   {
     client:

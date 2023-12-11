@@ -1,15 +1,17 @@
 .testimonials {
   display: flex;
   justify-content: space-around;
+
   flex-wrap: wrap;
   padding: 3rem 1rem;
 }
 
 .testimonial {
   border: 2px solid rgb(192, 0, 0);
-  height: 19rem;
-  width: 19rem;
-  margin: 0.5rem;
+
+  width: fit-content;
+  max-width: 15%;
+  margin: 1rem;
   padding: 1rem;
   text-align: center;
   display: flex;
@@ -25,4 +27,32 @@
 .quote {
   font-weight: bold;
   font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 1400px) {
+  .quote {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .testimonial {
+    max-width: 25%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .testimonial {
+    max-width: 40%;
+  }
+
+  .quote {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .testimonial {
+    max-width: none;
+  }
 }
