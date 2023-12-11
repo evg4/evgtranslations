@@ -16,14 +16,12 @@
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 3rem 1rem;
-  width: 80%;
   margin: 0 auto;
 }
 
 .specialism {
   border: 2px solid rgb(192, 0, 0);
-  height: 19rem;
-  width: 19rem;
+  width: 21%;
   margin: 0.5rem;
   padding: 1rem;
   text-align: center;
@@ -61,4 +59,53 @@
 
 .cta:visited {
   color: black;
+}
+
+@media only screen and (max-width: 1380px) {
+  .specialism {
+    margin: 0.1rem;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .specialismsSection h2 {
+    font-size: 2.5rem;
+  }
+
+  .specialism h3 {
+    font-size: 1.3rem;
+  }
+
+  .specialism p {
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .specialism {
+    margin: 0.1rem;
+    padding: 0.5rem;
+  }
+
+  .specialismsSection h2 {
+    font-size: 2rem;
+  }
+
+  .specialism h3 {
+    font-size: 1.2rem;
+  }
+
+  .specialism p {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .specialism {
+    width: 90%;
+  }
+
+  .specialisms {
+    flex-direction: column;
+  }
 }
