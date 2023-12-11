@@ -1,6 +1,7 @@
 .ul {
   list-style: none;
   display: flex;
+  padding: 0;
 }
 
 .li {
@@ -17,4 +18,38 @@
 nav a {
   color: rgb(192, 0, 0);
   text-decoration: none;
+}
+
+.menu {
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: rgb(192, 0, 0);
+  display: none;
+}
+
+@media only screen and (max-width: 1250px) {
+  .li {
+    font-size: 1.3rem;
+  }
+
+  nav a {
+    color: blue;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .li {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .ul {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
 }

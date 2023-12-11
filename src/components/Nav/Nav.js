@@ -1,5 +1,7 @@
 import styles from "../Nav/Nav.module.css";
 import { NavLink } from "react-router-dom";
+import Menu from "../Menu/Menu";
+import { useState } from "react";
 
 function NavBar() {
   return (
@@ -46,6 +48,11 @@ function NavBar() {
           </NavLink>
         </li>
       </ul>
+      <div className={styles.menu}>
+        <div>
+          <Menu />
+        </div>
+      </div>
     </nav>
   );
 }

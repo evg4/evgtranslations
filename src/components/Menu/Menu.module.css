@@ -1,0 +1,22 @@
+.menu p {
+  text-align: center;
+}
+
+.menu p:hover {
+  cursor: pointer;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.menu li:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
