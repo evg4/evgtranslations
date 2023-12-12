@@ -17,7 +17,8 @@
 .banner h2 {
   font-size: 3rem;
   color: white;
-  padding: 1.5rem 0;
+  padding: 0;
+  margin-bottom: 0;
 }
 
 .bannerText {
@@ -33,16 +34,9 @@
   font-size: 1.2rem;
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1080px) {
   .banner h2 {
-    font-size: 2rem;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  .banner h2 {
-    font-size: 1.8rem;
-    margin-bottom: 0;
+    font-size: 2.5rem;
   }
 
   .bannerText h3 {
@@ -51,6 +45,13 @@
 
   .bannerText p {
     font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .banner h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0;
   }
 
   .bannerText {

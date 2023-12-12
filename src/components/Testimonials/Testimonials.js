@@ -8,7 +8,7 @@ function Testimonials() {
         return (
           <div className={styles.testimonial}>
             <p className={styles.quote}>"{testimonial.quote}"</p>
-            <p>{testimonial.client}</p>
+            <p className={styles.client}>{testimonial.client}</p>
           </div>
         );
       })}

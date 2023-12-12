@@ -6,8 +6,7 @@ function Intro() {
       <div className={styles.overlay}>
         <div>
           <h2>
-            EVG Translations <br></br> Translations from German, Spanish and
-            Italian into English
+            EVG Translations: <br></br> German, Spanish and Italian into English
           </h2>
         </div>
         <div className={styles.bannerText}>

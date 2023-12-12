@@ -1,7 +1,6 @@
 .specialismsSection {
   display: flex;
   flex-direction: column;
-  margin: 2rem 0;
 }
 
 .specialismsSection h2 {
@@ -22,7 +21,7 @@
 .specialism {
   border: 2px solid rgb(192, 0, 0);
   width: 21%;
-  margin: 0.5rem;
+  margin: 0.1rem auto;
   padding: 1rem;
   text-align: center;
   display: flex;
@@ -37,7 +36,6 @@
 
 .specialism p {
   font-size: 1.2rem;
-
   margin-top: 0;
 }
 
@@ -61,27 +59,26 @@
   color: black;
 }
 
-@media only screen and (max-width: 1380px) {
-  .specialism {
-    margin: 0.1rem;
-  }
-}
-
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1080px) {
   .specialismsSection h2 {
     font-size: 2.5rem;
   }
 
+  .specialism {
+    margin: 0.1rem auto;
+    padding: 0.5rem;
+  }
+
   .specialism h3 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .specialism p {
-    font-size: 1.1em;
+    font-size: 1.1rem;
   }
 }
 
-@media only screen and (max-width: 1050px) {
+/*@media only screen and (max-width: 1080px) {
   .specialism {
     margin: 0.1rem;
     padding: 0.5rem;
@@ -92,11 +89,17 @@
   }
 
   .specialism h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .specialism p {
     font-size: 1rem;
+  }
+}*/
+
+@media only screen and (max-width: 900px) {
+  .specialismsSection h2 {
+    font-size: 1.8rem;
   }
 }
 
@@ -107,5 +110,10 @@
 
   .specialisms {
     flex-direction: column;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .specialismsSection h2 {
+    font-size: 1.5rem;
   }
 }

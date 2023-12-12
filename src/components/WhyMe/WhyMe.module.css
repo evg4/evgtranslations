@@ -50,25 +50,38 @@
 
 @media only screen and (max-width: 1080px) {
   .whyText h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .whyText li,
   .cta {
     font-size: 1.1rem;
   }
-
   .photo {
     height: 32rem;
   }
 }
 
-@media only screen and (max-width: 845px) {
+/*@media only screen and (max-width: 1080px) {
+  .whyText h2 {
+    font-size: 2rem;
+  }
+
+  .whyText li,
+  .cta {
+    font-size: 1rem;
+  }
+
+  .photo {
+    height: 32rem;
+  }
+}*/
+
+@media only screen and (max-width: 900px) {
   .whyText h2 {
     font-size: 1.8rem;
     margin-bottom: 0;
   }
-
   .whyText li,
   .cta {
     font-size: 1rem;
@@ -86,6 +99,7 @@
   .whyText h2 {
     text-align: center;
     margin-top: 0;
+    font-size: 1.5rem;
   }
 
   .cta {

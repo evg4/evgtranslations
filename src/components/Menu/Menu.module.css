@@ -1,5 +1,6 @@
 .menu p {
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .menu p:hover {
@@ -14,6 +15,7 @@
 .menu li {
   text-align: center;
   text-decoration: underline;
+  font-size: 1.5rem;
 }
 
 .menu li:hover {

@@ -27,7 +27,7 @@
   margin: 2rem;
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 1080px) {
   .contactText h2 {
     font-size: 2.5rem;
     margin-bottom: 0;
@@ -37,36 +37,42 @@
     font-size: 1.1rem;
     margin-top: 0;
   }
+}
 
+/*@media only screen and (max-width: 1080px) {
+  .contactText h2 {
+    font-size: 2rem;
+  }
+  .contactText p {
+    font-size: 1rem;
+  }
+}*/
+
+@media only screen and (max-width: 900px) {
+  .contactText h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 680px) {
   .contactImg img {
     height: 20rem;
     margin: 1rem;
   }
-}
-
-@media only screen and (max-width: 565px) {
   .contactText h2 {
-    font-size: 2.3rem;
+    font-size: 1.5rem;
     margin-bottom: 0;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 565px) {
   .contact {
     flex-direction: column;
-  }
-
-  .contactText h2 {
-    font-size: 1.8rem;
   }
 
   .contactText {
     width: 80%;
     text-align: center;
-  }
-
-  .contactText p {
-    font-size: 1rem;
   }
 
   .contactText strong {
