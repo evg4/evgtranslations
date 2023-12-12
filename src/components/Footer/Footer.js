@@ -14,40 +14,41 @@ function Footer() {
           <Link to="/">EVG Translations</Link>
         </h3>
         <p>Translations by Elizabeth Gardiner</p>
-
-        <p className={styles.coded}>Website coded by Elizabeth Gardiner</p>
+        <p className={styles.coded}>
+          <em>Website coded by Elizabeth Gardiner</em>
+        </p>
       </div>
       <div className={styles.footerDiv}>
-        <h3>Useful links</h3>
-        <ul className={styles.ul}>
-          <li className={styles.li}>
+        <h4>Useful links</h4>
+        <ul>
+          <li>
             <Link to="/about">About</Link>
           </li>
-          <li className={styles.li}>
+          <li>
             <Link to="/services-and-specialisms">Services and Specialisms</Link>
           </li>
-          <li className={styles.li}>
+          <li>
             <Link to="/how-i-work">How I Work</Link>
           </li>
         </ul>
       </div>
       <div className={styles.footerDiv}>
-        <h3>Get in touch</h3>
-        <ul className={styles.ul}>
-          <li className={styles.li}>
+        <h4>Get in touch</h4>
+        <ul>
+          <li>
             <Link to="/contact">Contact</Link>
           </li>
         </ul>
         <br></br>
-        <a
+        <Link
           target="_blank"
-          href="https://www.linkedin.com/in/elizabeth-v-gardiner/"
+          to="https://www.linkedin.com/in/elizabeth-v-gardiner/"
         >
           <img className={styles.socials} src={linkedin}></img>
-        </a>
-        <a target="_blank" href="https://twitter.com/EVGTranslations">
+        </Link>
+        <Link target="_blank" to="https://twitter.com/EVGTranslations">
           <img className={styles.socials} src={twitter}></img>
-        </a>
+        </Link>
       </div>
       <div className={styles.badgeDiv}>
         <img className={styles.badge} src={Trados2}></img>

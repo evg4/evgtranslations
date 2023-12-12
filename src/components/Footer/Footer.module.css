@@ -5,44 +5,32 @@ footer {
   height: 12rem;
 }
 
-footer a {
+footer h3 a {
   font-size: 1.4rem;
-  color: black;
   text-decoration: none;
+  color: black;
 }
 
+footer h4,
 footer p,
-footer li {
+footer li a {
   font-size: 1.2rem;
+  color: black;
 }
 
-.socials {
-  height: 1rem;
-  padding-right: 0.5rem;
-}
-
-.coded {
-  font-size: 1rem;
-}
-
-.ul {
+footer ul {
   list-style: none;
   margin: 0rem;
   padding: 0;
 }
 
-.li {
-  margin: 0;
-  padding: 0;
-}
-
-.li a {
-  text-decoration: underline;
-  font-size: 1.2rem;
-}
-
-.li a:hover {
+footer li a:hover {
   text-decoration: none;
+}
+
+.socials {
+  height: 1rem;
+  padding-right: 0.5rem;
 }
 
 .badge {
@@ -61,20 +49,13 @@ footer li {
 }
 
 @media only screen and (max-width: 1250px) {
-  footer a {
+  footer h3 a {
     font-size: 1.2rem;
   }
 
+  footer h4,
   footer p,
-  footer li {
-    font-size: 1.1rem;
-  }
-
-  .coded {
-    font-size: 1rem;
-  }
-
-  .li a {
+  footer li a {
     font-size: 1.1rem;
   }
 
@@ -85,23 +66,12 @@ footer li {
 }
 
 @media only screen and (max-width: 1080px) {
-  footer a {
+  footer h4 {
     font-size: 1.1rem;
   }
 
   footer p,
-  footer li {
-    font-size: 1rem;
-  }
-
-  .coded {
-    font-size: 1rem;
-  }
-
-  footer h3 {
-    font-size: 1.1rem;
-  }
-  .li a {
+  footer li a {
     font-size: 1rem;
   }
 
@@ -130,7 +100,7 @@ footer li {
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 325px) {
   .badgeDiv {
     flex-wrap: wrap;
   }

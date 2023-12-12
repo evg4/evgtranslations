@@ -1,14 +1,12 @@
 .testimonials {
   display: flex;
   justify-content: space-around;
-
   flex-wrap: wrap;
   padding: 3rem 1rem;
 }
 
 .testimonial {
   border: 2px solid rgb(192, 0, 0);
-
   width: fit-content;
   max-width: 15%;
   margin: 1rem;

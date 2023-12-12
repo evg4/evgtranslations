@@ -9,7 +9,7 @@ function WhyMe() {
         <img className={styles.photo} src={photo1}></img>
       </div>
       <div className={styles.whyText}>
-        <h3>Why work with me?</h3>
+        <h2>Why work with me?</h2>
         <ul className={styles.ul}>
           <li>
             <strong>✓ Qualified.</strong> I hold a first-class degree in German
