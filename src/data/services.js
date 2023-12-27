@@ -1,7 +1,8 @@
 export const services = [
   {
     title: "Translation",
-    text: "Do you have a written text in German, Spanish or Italian that you need in English? I can help. Send me your source text and, if I’m comfortable with the subject matter, I’ll be happy to translate it for you at an agreed price and timescale. See below for my specialist areas or read more details on the translation process.",
+    text: "Do you have a written text in German, Spanish or Italian that you need in English? I can help. Send me your source text and, if I’m comfortable with the subject matter, I’ll be happy to translate it for you at an agreed price and timescale. See below for my specialist areas or ",
+    link: "read more details about the translation process.",
   },
   {
     title: "Revision",

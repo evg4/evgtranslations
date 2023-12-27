@@ -11,7 +11,10 @@ function Services() {
           return (
             <div className={styles.service}>
               <h3>{service.title}</h3>
-              <p>{service.text}</p>
+              <p>
+                {service.text}
+                <Link to="/how-i-work">{service.link}</Link>
+              </p>
             </div>
           );
         })}
