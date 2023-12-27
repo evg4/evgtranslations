@@ -60,7 +60,7 @@ function Footer() {
       </div>
       <div className={styles.badgeDiv}>
         <img
-          alt="An image with the words 'I work with SDL Trados'"
+          alt="An icon with the words 'I work with SDL Trados'"
           className={styles.badge}
           src={Trados2}
         ></img>
@@ -71,7 +71,7 @@ function Footer() {
           to="https://www.ciol.org.uk/member-check/profile/65213/21294"
         >
           <img
-            alt="An image with the words 'Chartered Institute of Linguists. MEMBER. Verify: ciol.org.uk/check'"
+            alt="An icon with the words 'Chartered Institute of Linguists. MEMBER. Verify: ciol.org.uk/check'"
             className={styles.badge}
             src={CIOL}
           ></img>
@@ -82,7 +82,7 @@ function Footer() {
           href="https://www.iti.org.uk/find-professional-translator-interpreter/member-check/individual-member-check.html?q=Elizabeth+Gardiner"
         >
           <img
-            alt="An image with the words 'Affiliate member, Institute of Translation and Interpreting'"
+            alt="An icon with the words 'Affiliate member, Institute of Translation and Interpreting'"
             className={styles.badge}
             src={ITI}
           ></img>

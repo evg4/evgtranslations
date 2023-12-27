@@ -69,7 +69,7 @@ function About() {
         </div>
         <div className={styles.aboutImg}>
           <img
-            alt="A photo of Elizabeth standing in front of a green hedge. She is smiling at the camera."
+            alt="Elizabeth is standing in front of a green hedge. She is smiling at the camera."
             src={photo}
           ></img>
         </div>

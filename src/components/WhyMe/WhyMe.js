@@ -7,7 +7,7 @@ function WhyMe() {
     <section className={styles.whySection}>
       <div>
         <img
-          alt="A photo of Elizabeth standing against a pale wall. She is smiling at the camera."
+          alt="Elizabeth is standing against a pale wall. She is smiling at the camera."
           className={styles.photo}
           src={photo1}
         ></img>

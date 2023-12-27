@@ -49,7 +49,7 @@ function Contact() {
       </div>
       <div className={styles.contactImg}>
         <img
-          alt="A photo of Elizabeth standing in the garden."
+          alt="Elizabeth is standing in the garden and smiling at the camera."
           src={photo}
         ></img>
       </div>
