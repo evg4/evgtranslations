@@ -1,3 +1,4 @@
+import styles from "../Header/Header.module.css";
 import NavBar from "../Nav/Nav";
 import { Link } from "react-router-dom";
 
