@@ -49,6 +49,7 @@
   width: max-content;
   margin: 0 auto;
   color: black;
+  padding-bottom: 1rem;
 }
 
 .cta:hover {
@@ -77,25 +78,6 @@
     font-size: 1.1rem;
   }
 }
-
-/*@media only screen and (max-width: 1080px) {
-  .specialism {
-    margin: 0.1rem;
-    padding: 0.5rem;
-  }
-
-  .specialismsSection h2 {
-    font-size: 2rem;
-  }
-
-  .specialism h3 {
-    font-size: 1.1rem;
-  }
-
-  .specialism p {
-    font-size: 1rem;
-  }
-}*/
 
 @media only screen and (max-width: 900px) {
   .specialismsSection h2 {
