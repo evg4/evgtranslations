@@ -22,11 +22,12 @@ function WhyMe() {
           </li>
           <li>
             <strong>✓ Experienced.</strong> With over 3 years of experience
-            working at a UK-based translation agency, I have in-depth knowledge
-            of the industry and know the pressures faced by project managers and
-            the importance of prompt delivery. I’ve also lived in both Germany
-            and Spain so have an awareness of important cultural aspects
-            relating to the languages I translate.
+            working at a UK-based translation agency and 2 years as a freelance
+            translator, I have in-depth knowledge of the industry and know the
+            pressures faced by project managers and the importance of prompt
+            delivery. I’ve also lived in both Germany and Spain so have an
+            awareness of important cultural aspects relating to the languages I
+            translate.
           </li>
           <li>
             <strong>✓ Meticulous.</strong> All work is thoroughly researched and
