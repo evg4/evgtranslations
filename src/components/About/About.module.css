@@ -49,12 +49,6 @@
   }
 }
 
-/*@media only screen and (max-width: 1080px) {
-  .aboutText p {
-    font-size: 1rem;
-  }
-}*/
-
 @media only screen and (max-width: 900px) {
   .aboutImg img {
     height: 25rem;

@@ -65,31 +65,6 @@ footer li a:hover {
   }
 }
 
-/*@media only screen and (max-width: 1080px) {
-  footer h4 {
-    font-size: 1.1rem;
-  }
-
-  footer p,
-  footer li a,
-  footer h4 {
-    font-size: 1rem;
-  }
-
-  .badge {
-    height: 2.5rem;
-    padding: 0 0.5rem;
-  }
-
-  .badgeDiv {
-    margin: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-}
-*/
 @media only screen and (max-width: 900px) {
   footer {
     flex-wrap: wrap;

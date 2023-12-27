@@ -78,24 +78,6 @@
   }
 }
 
-/*@media only screen and (max-width: 1080px) {
-  .service {
-    margin: 0.1rem auto;
-    padding: 0.5rem;
-  }
-
-  .servicesSection h2 {
-    font-size: 2rem;
-  }
-  .service h3 {
-    font-size: 1.1rem;
-  }
-
-  .service p {
-    font-size: 1rem;
-  }
-}*/
-
 @media only screen and (max-width: 900px) {
   .servicesSection h2 {
     font-size: 1.8rem;

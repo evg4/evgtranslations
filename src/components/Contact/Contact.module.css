@@ -39,15 +39,6 @@
   }
 }
 
-/*@media only screen and (max-width: 1080px) {
-  .contactText h2 {
-    font-size: 2rem;
-  }
-  .contactText p {
-    font-size: 1rem;
-  }
-}*/
-
 @media only screen and (max-width: 900px) {
   .contactText h2 {
     font-size: 1.8rem;
