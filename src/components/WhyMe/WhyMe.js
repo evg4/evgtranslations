@@ -6,7 +6,11 @@ function WhyMe() {
   return (
     <section className={styles.whySection}>
       <div>
-        <img className={styles.photo} src={photo1}></img>
+        <img
+          alt="A photo of Elizabeth standing against a pale wall. She is smiling at the camera."
+          className={styles.photo}
+          src={photo1}
+        ></img>
       </div>
       <div className={styles.whyText}>
         <h2>Why work with me?</h2>

@@ -68,7 +68,10 @@ function About() {
           </p>
         </div>
         <div className={styles.aboutImg}>
-          <img src={photo}></img>
+          <img
+            alt="A photo of Elizabeth standing in front of a green hedge. She is smiling at the camera."
+            src={photo}
+          ></img>
         </div>
       </div>
     </section>

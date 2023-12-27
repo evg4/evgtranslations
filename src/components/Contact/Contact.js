@@ -28,19 +28,30 @@ function Contact() {
             target="_blank"
             to="https://www.linkedin.com/in/elizabeth-v-gardiner/"
           >
-            <img className={styles.socials} src={linkedin}></img>
+            <img
+              alt="LinkedIn logo"
+              className={styles.socials}
+              src={linkedin}
+            ></img>
           </Link>
           <Link
             rel="noopener noreferrer"
             target="_blank"
             to="https://twitter.com/EVGTranslations"
           >
-            <img className={styles.socials} src={twitter}></img>
+            <img
+              alt="Twitter/X logo"
+              className={styles.socials}
+              src={twitter}
+            ></img>
           </Link>
         </p>
       </div>
       <div className={styles.contactImg}>
-        <img src={photo}></img>
+        <img
+          alt="A photo of Elizabeth standing in the garden."
+          src={photo}
+        ></img>
       </div>
     </section>
   );

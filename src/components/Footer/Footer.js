@@ -44,28 +44,48 @@ function Footer() {
           target="_blank"
           to="https://www.linkedin.com/in/elizabeth-v-gardiner/"
         >
-          <img className={styles.socials} src={linkedin}></img>
+          <img
+            alt="LinkedIn logo"
+            className={styles.socials}
+            src={linkedin}
+          ></img>
         </Link>
         <Link target="_blank" to="https://twitter.com/EVGTranslations">
-          <img className={styles.socials} src={twitter}></img>
+          <img
+            alt="Twitter/X logo"
+            className={styles.socials}
+            src={twitter}
+          ></img>
         </Link>
       </div>
       <div className={styles.badgeDiv}>
-        <img className={styles.badge} src={Trados2}></img>
+        <img
+          alt="An image with the words 'I work with SDL Trados'"
+          className={styles.badge}
+          src={Trados2}
+        ></img>
 
         <Link
           rel="noopener noreferrer"
           target="_blank"
           to="https://www.ciol.org.uk/member-check/profile/65213/21294"
         >
-          <img className={styles.badge} src={CIOL}></img>
+          <img
+            alt="An image with the words 'Chartered Institute of Linguists. MEMBER. Verify: ciol.org.uk/check'"
+            className={styles.badge}
+            src={CIOL}
+          ></img>
         </Link>
         <Link
           rel="noopener noreferrer"
           target="_blank"
           href="https://www.iti.org.uk/find-professional-translator-interpreter/member-check/individual-member-check.html?q=Elizabeth+Gardiner"
         >
-          <img className={styles.badge} src={ITI}></img>
+          <img
+            alt="An image with the words 'Affiliate member, Institute of Translation and Interpreting'"
+            className={styles.badge}
+            src={ITI}
+          ></img>
         </Link>
       </div>
     </footer>
