@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "MainFont";
+  src: url("../../../public/GalanoGrotesqueDEMO-Bold.otf");
+}
+
+p {
+  font-family: "calibri";
+}
+
+h2 {
+  font-family: "MainFont", "calibri";
+}
