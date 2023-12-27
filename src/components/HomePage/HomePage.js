@@ -5,11 +5,11 @@ import Testimonials from "../Testimonials/Testimonials";
 
 function HomePage() {
   return (
-    <div>
+    <section>
       <Intro />
       <WhyMe />
       <Testimonials />
-    </div>
+    </section>
   );
 }
 

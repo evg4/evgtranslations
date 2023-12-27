@@ -4,10 +4,10 @@ import Specialisms from "../Specialisms/Specialisms";
 
 function ServicesAndSpecialisms() {
   return (
-    <div>
+    <section>
       <Services />
       <Specialisms />
-    </div>
+    </section>
   );
 }
 

@@ -2,7 +2,7 @@ import styles from "../Intro/Intro.module.css";
 
 function Intro() {
   return (
-    <div className={styles.banner}>
+    <section className={styles.banner}>
       <div className={styles.overlay}>
         <div>
           <h2>
@@ -31,7 +31,7 @@ function Intro() {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
