@@ -51,5 +51,6 @@ nav a:hover {
 
   .menu {
     display: block;
+    padding: 0;
   }
 }
