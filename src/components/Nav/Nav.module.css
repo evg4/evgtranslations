@@ -6,7 +6,7 @@
 
 .li {
   padding: 0 1rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: rgb(192, 0, 0);
 }
 
@@ -33,7 +33,7 @@ nav a:hover {
 
 @media only screen and (max-width: 1250px) {
   .li {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 }
 
