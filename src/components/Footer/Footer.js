@@ -79,7 +79,7 @@ function Footer() {
         <Link
           rel="noopener noreferrer"
           target="_blank"
-          href="https://www.iti.org.uk/find-professional-translator-interpreter/member-check/individual-member-check.html?q=Elizabeth+Gardiner"
+          to="https://www.iti.org.uk/find-professional-translator-interpreter/member-check/individual-member-check.html?q=Elizabeth+Gardiner"
         >
           <img
             alt="An icon with the words 'Affiliate member, Institute of Translation and Interpreting'"

@@ -14,7 +14,7 @@ function Contact() {
           to get a no-obligation quote. Send me an email to:
           <br></br>
           <br></br>
-          <strong>e.v.gardiner@outlook.com</strong>
+          <strong>xxx@outlook.co.uk</strong>
           <br></br>
           <br></br>
           My usual working hours are 9.00am - 5.00pm UK time.
