@@ -11,6 +11,7 @@ import About from "../About/About";
 import ServicesAndSpecialisms from "../ServicesAndSpecialisms/ServicesAndSpecialisms";
 import HowIWork from "../HowIWork/HowIWork";
 import Contact from "../Contact/Contact";
+import NotFound from "../NotFound/NotFound";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -23,6 +24,7 @@ const router = createBrowserRouter(
       />
       <Route path="/how-i-work" element={<HowIWork />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="*" element={<NotFound />} />
     </Route>
   )
 );
